@@ -1,4 +1,5 @@
 import turtle
+# Spiral Helix Pattern
 loadWindow = turtle.Screen()
 turtle.speed(2)
 
