@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Ration Distributor Module | Digital Ration Management System</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-brand">
+                <div class="logo">
+                    <i class="fas fa-wheat-awn"></i>
+                    <span>E-Ration</span>
+                </div>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#distribution">Distribution</a></li>
+                    <li><a href="#inventory">Inventory</a></li>
+                    <li><a href="#reports">Reports</a></li>
+                    <li><a href="#support">Support</a></li>
+                </ul>
+            </nav>
+            <div class="user-profile">
+                <div class="profile-info">
+                    <span class="username">Admin User</span>
+                    <span class="role">Distributor</span>
+                </div>
+                <div class="profile-avatar">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Welcome to E-Ration Distribution Portal</h1>
+                <p>Streamline your ration distribution process with our comprehensive digital platform. Manage inventory, track distributions, and serve beneficiaries efficiently.</p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">1,247</span>
+                        <span class="stat-label">Active Beneficiaries</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">89%</span>
+                        <span class="stat-label">Distribution Rate</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">5,432</span>
+                        <span class="stat-label">Total Distributions</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Dashboard -->
+    <main class="main-content">
+        <div class="container">
+            <section class="dashboard">
+                <h2>Dashboard Overview</h2>
+                <div class="dashboard-grid">
+                    <!-- Ration Card Management -->
+                    <div class="dashboard-card">
+                        <div class="card-header">
+                            <div class="card-icon blue">
+                                <i class="fas fa-id-card"></i>
+                            </div>
+                            <h3>Ration Card Management</h3>
+                        </div>
+                        <div class="card-content">
+                            <p>Manage beneficiary ration cards, verify eligibility, and update card details.</p>
+                            <div class="card-stats">
+                                <span class="stat">1,247 Active Cards</span>
+                            </div>
+                        </div>
+                        <div class="card-actions">
+                            <button class="btn btn-primary">
+                                <i class="fas fa-plus"></i> Add New Card
+                            </button>
+                            <button class="btn btn-secondary">View All</button>
+                        </div>
+                    </div>
+
+                    <!-- Stock Inventory -->
+                    <div class="dashboard-card">
+                        <div class="card-header">
+                            <div class="card-icon green">
+                                <i class="fas fa-warehouse"></i>
+                            </div>
+                            <h3>Stock Inventory</h3>
+                        </div>
+                        <div class="card-content">
+                            <p>Monitor stock levels, manage inventory, and track commodity supplies.</p>
+                            <div class="card-stats">
+                                <span class="stat">12 Items in Stock</span>
+                            </div>
+                        </div>
+                        <div class="card-actions">
+                            <button class="btn btn-primary">
+                                <i class="fas fa-plus"></i> Add Stock
+                            </button>
+                            <button class="btn btn-secondary">Manage Inventory</button>
+                        </div>
+                    </div>
+
+                    <!-- Distribution Tracking -->
+                    <div class="dashboard-card">
+                        <div class="card-header">
+                            <div class="card-icon orange">
+                                <i class="fas fa-truck"></i>
+                            </div>
+                            <h3>Distribution Tracking</h3>
+                        </div>
+                        <div class="card-content">
+                            <p>Track daily distributions, monitor quotas, and generate distribution records.</p>
+                            <div class="card-stats">
+                                <span class="stat">156 Today's Distributions</span>
+                            </div>
+                        </div>
+                        <div class="card-actions">
+                            <button class="btn btn-primary">
+                                <i class="fas fa-plus"></i> New Distribution
+                            </button>
+                            <button class="btn btn-secondary">Track All</button>
+                        </div>
+                    </div>
+
+                    <!-- Beneficiary Management -->
+                    <div class="dashboard-card">
+                        <div class="card-header">
+                            <div class="card-icon purple">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h3>Beneficiary Management</h3>
+                        </div>
+                        <div class="card-content">
+                            <p>Manage beneficiary profiles, track eligibility, and update contact information.</p>
+                            <div class="card-stats">
+                                <span class="stat">1,247 Registered Beneficiaries</span>
+                            </div>
+                        </div>
+                        <div class="card-actions">
+                            <button class="btn btn-primary">
+                                <i class="fas fa-user-plus"></i> Add Beneficiary
+                            </button>
+                            <button class="btn btn-secondary">View All</button>
+                        </div>
+                    </div>
+
+                    <!-- Reports & Analytics -->
+                    <div class="dashboard-card">
+                        <div class="card-header">
+                            <div class="card-icon red">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <h3>Reports & Analytics</h3>
+                        </div>
+                        <div class="card-content">
+                            <p>Generate detailed reports, analyze distribution patterns, and track performance metrics.</p>
+                            <div class="card-stats">
+                                <span class="stat">24 Report Types Available</span>
+                            </div>
+                        </div>
+                        <div class="card-actions">
+                            <button class="btn btn-primary">
+                                <i class="fas fa-file-alt"></i> Generate Report
+                            </button>
+                            <button class="btn btn-secondary">View Analytics</button>
+                        </div>
+                    </div>
+
+                    <!-- Settings & Configuration -->
+                    <div class="dashboard-card">
+                        <div class="card-header">
+                            <div class="card-icon gray">
+                                <i class="fas fa-cog"></i>
+                            </div>
+                            <h3>Settings & Configuration</h3>
+                        </div>
+                        <div class="card-content">
+                            <p>Configure system settings, manage user permissions, and customize distribution parameters.</p>
+                            <div class="card-stats">
+                                <span class="stat">System Configured</span>
+                            </div>
+                        </div>
+                        <div class="card-actions">
+                            <button class="btn btn-primary">
+                                <i class="fas fa-wrench"></i> Configure
+                            </button>
+                            <button class="btn btn-secondary">User Settings</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Quick Actions -->
+            <section class="quick-actions">
+                <h2>Quick Actions</h2>
+                <div class="actions-grid">
+                    <button class="action-btn">
+                        <i class="fas fa-qrcode"></i>
+                        <span>Scan QR Code</span>
+                    </button>
+                    <button class="action-btn">
+                        <i class="fas fa-search"></i>
+                        <span>Search Beneficiary</span>
+                    </button>
+                    <button class="action-btn">
+                        <i class="fas fa-bell"></i>
+                        <span>Notifications</span>
+                        <span class="notification-badge">3</span>
+                    </button>
+                    <button class="action-btn">
+                        <i class="fas fa-phone"></i>
+                        <span>Emergency Contact</span>
+                    </button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>E-Ration System</h3>
+                    <p>Digital solution for efficient ration distribution and management.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#help">Help & Support</a></li>
+                        <li><a href="#training">Training Materials</a></li>
+                        <li><a href="#updates">System Updates</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Support</h4>
+                    <p><i class="fas fa-phone"></i> 1800-XXX-XXXX</p>
+                    <p><i class="fas fa-envelope"></i> support@eration.gov</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 E-Ration Distribution System. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
